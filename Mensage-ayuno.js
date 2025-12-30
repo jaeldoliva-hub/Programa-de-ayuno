@@ -114,7 +114,7 @@ function buildWhatsAppMessage() {
 
 
 function sendToWhatsApp() {
-  const message = buildWhatsAppMessage();
+  const message = buildWhatsAppMessage1();
   const url = "https://api.whatsapp.com/send?text=" + encodeURIComponent(message);
   window.open(url, "_blank");
 }
@@ -131,4 +131,5 @@ function autoGrow(el) {
 }
 /* ===============================
    END OF FILE
+
 ================================ */
